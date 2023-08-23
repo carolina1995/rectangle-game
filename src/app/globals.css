@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.shape {
+
+  background-color: rgba(9, 72, 234, 0.2)
+}
+
+.shape:hover {
+  border: 1px solid rgba(9, 72, 234, 1);
+}
+
+.modal-container {
+  position: absolute;
+  width: 560px;
+  height: 520px;
+}
+
+.modal {
+
+  box-shadow: 0px 16px 24px 0px #0A1F4414;
+  border: 1px solid #F1F2F4;
+  border-radius: 8px;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+
+}
+
+.modal-item-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.modal-item-container .modal-item:first-child {
+  margin: 0 16px 16px 0;
+}
+
+.modal form {
+  padding: 24px 48px;
+}
+
+.modal-close {
+  background: url('close.png');
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.modal-title {
+  font-size: 28px;
+  line-height: 40px;
+  text-align: left;
+  width: 100%;
+  padding: 40px 0 24px 48px;
+  color: #0A1F44;
+}
+
+.modal-item {
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 16px 0;
+}
+
+.modal label {
+  font-size: 12px;
+  line-height: 20px;
+
+}
+
+
+
+.modal button[type=submit] {
+  width: 100%;
+  height: 48px;
+  box-shadow: 0px 1px 1px 0px #0A1F441A;
+  background: #0948EA;
+  border-radius: 100px;
+  border: none;
+  color: white;
+
+  margin: 24px 0;
+
+
+}
+
+.modal-item input {
+  height: 48px;
+
+  background: linear-gradient(0deg, #F1F2F4, #F1F2F4),
+    linear-gradient(0deg, #F7F8F9, #F7F8F9);
+  border: 1px solid #F1F2F4;
+  padding: 12px 16px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px 0px #0A1F441F inset;
+
+}
+
+.card {
+  text-align: center;
+  width: 224px;
+  height: 336px;
+  border: 1px solid #F1F2F4;
+  position: fixed;
+  right: 32px;
+  bottom: 40px;
+  box-shadow: 0px 16px 24px 0px #0A1F4414;
+
+
+
+}
+
+.card-title {
+  padding: 24px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0948EA;
+  line-height: 32px;
+
+}
+
+.card-item {
+  width: 100%;
+  padding: 12px 0;
+  line-height: 24px;
+  color: #4E5D78;
+  font-weight: 500;
+}
+
+.divider {
+  border-bottom: 1px solid #F1F2F4;
+}
+
+
+.card .add-shape {
+  width: 160px;
+  height: 48px;
+  box-shadow: 0px 1px 1px 0px #0A1F441A;
+  background: #EB5757;
+  border-radius: 100px;
+  color: white;
+  border: none;
+  margin-top: 24px;
+  line-height: 22px;
+  cursor: pointer;
+}
