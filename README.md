@@ -32,5 +32,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-![image](https://github.com/carolina1995/rectangle-game/assets/24224426/3a80fc94-a2a2-423d-9b5a-07b51943a08b)
-![image](https://github.com/carolina1995/rectangle-game/assets/24224426/fe06075a-b6e4-459c-b561-d9a4728400cb)
+![image](https://github.com/carolina1995/rectangle-game/assets/24224426/94817954-1595-40af-b51d-7c38f5bb01ae)
+
+![image](https://github.com/carolina1995/rectangle-game/assets/24224426/93fb98f2-b601-44a9-be08-e545e760ee3c)
+
